@@ -1,0 +1,118 @@
+/* SmartAI Toolbar floating inside compose/reply */
+.smartai-toolbar {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 2000; /* above Gmail UI */
+}
+
+/* Buttons */
+.smartai-btn {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.smartai-btn:hover {
+  background-color: #1558b0;
+}
+
+/* Prompt textarea for Generate Email */
+.smartai-prompt {
+  width: 100%;
+  resize: none;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #dadce0;
+  font-size: 13px;
+  min-height: 60px;
+}
+
+/* Categorize button in Gmail sidebar */
+#smartai-categorize {
+  background-color: #34a853;
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+#smartai-categorize:hover {
+  background-color: #0f7a3c;
+}
+
+/* Popup window for Generate Email */
+#smartai-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 3000;
+  width: 400px;
+  max-width: 90%;
+  padding: 16px;
+}
+
+.smartai-popup-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.smartai-popup-content textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: none;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #dadce0;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.smartai-popup-content .smartai-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.smartai-popup-content .smartai-actions button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#smartai-generate {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+#smartai-generate:hover {
+  background-color: #1558b0;
+}
+
+#smartai-cancel {
+  background-color: #dadce0;
+  color: #000;
+}
+
+#smartai-cancel:hover {
+  background-color: #b0b0b0;
+}

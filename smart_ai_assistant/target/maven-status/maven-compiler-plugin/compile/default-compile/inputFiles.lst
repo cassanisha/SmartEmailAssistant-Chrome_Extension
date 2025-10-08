@@ -1,0 +1,16 @@
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/SmartAiAssistantApplication.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/chatModels/GeminiClient.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/controller/EmailAssistantController.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/googleCalendar/CalendarEventService.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/googleCalendar/GoogleAuthorizeUtil.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/promptconfigs/CorsConfig.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/promptconfigs/GenerateEmailPromptProcessor.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/promptconfigs/PromptProcessor.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/promptconfigs/ReplyAIPromptProcessor.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/requestDtos/AddEventDto.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/requestDtos/AddEventRequest.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/requestDtos/CategorizeRequest.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/requestDtos/GenerateEmailRequest.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/requestDtos/Message.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/requestDtos/ReplyAIRequest.java
+/Users/anishadhillon/Desktop/smart_ai_assistant/src/main/java/com/email/emailAssist/services/EmailAssistantService.java

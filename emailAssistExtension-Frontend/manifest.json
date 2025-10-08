@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "SmartAI Gmail Assistant",
+  "version": "1.0",
+  "description": "Sign in to Google for Calendar access",
+  "permissions": ["identity", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "oauth2": {
+    "client_id": "234046267923-4h7l9sdho9119ku7of7h9h2f66cacsp4.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.events",
+      "https://www.googleapis.com/auth/gmail.readonly"
+    ]
+  }
+}
